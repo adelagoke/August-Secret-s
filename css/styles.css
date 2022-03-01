@@ -1,0 +1,155 @@
+body {
+  font-family: 'montserrat';
+  /* text-align: center; */
+}
+#title {
+  background-color: #EED6C4;
+  color: #fff;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+h1 {
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+h2 {
+  font-family: 'Montserrat-bold', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+
+h3 {
+  font-family: 'Montserrat-bold', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+p {
+  color: #8f8f8f;
+}
+/* navigation bsr */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 3.5rem;
+  font-weight: bold ;
+}
+
+.nav-item {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+  padding: 0 18px;
+}
+
+/* download button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+.title-image {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+
+/* font awesome */
+.fa-solid{
+  color: #ef8172;
+  padding-bottom: 5%;
+}
+.fa-solid:hover {
+  color: #ff4c66;
+}
+
+/* features */
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  /* z-index: 1; */
+}
+.feature-box {
+  text-align: center;
+  background-color: #fff;
+}
+
+/* testimonial */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+.testimonials-logo {
+  width: 12%;
+  border-radius: 100%;
+  padding: 20px;
+}
+
+/* press */
+#press {
+  text-align: center;
+  background-color: #ef8172;
+  padding-bottom: 5%;
+}
+
+.carousel-item{
+   padding: 7% 15%;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+#cta {
+  padding: 3% 10%;
+  background-color: #ff4c68;
+}
+.cta-box{
+  padding: 60px;
+  text-align: center;
+  color: #fff;
+}
+
+.cta-box h3 {
+  font-size: 3rem;
+  padding-bottom: 5%;
+}
+
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 8% 0 6% 0;
+}
+.fa-icon{
+  padding: 10px;
+}
+@media (max-width:995px) {
+
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    width: 40%;
+    transform: rotate(0);
+  }
+}
